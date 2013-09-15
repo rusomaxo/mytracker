@@ -33,7 +33,7 @@ namespace mytracker.api.Services
         /// <returns>if the password and e-mail is correct then returns true. If e-mail not found or email is blocked or password incorrect then returns false
         /// </returns>
         bool Validate(string email, string password);
-
+        
         /// <summary>
         /// Change user password
         /// </summary>

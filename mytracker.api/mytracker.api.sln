@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mytracker.api", "mytracker.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mytracker.api.tests", "..\mytracker.api.tests\mytracker.api.tests.csproj", "{19CAE613-9DE2-404B-BA26-3BD3C12471AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mytracker.web.api", "mytracker.web.api\mytracker.web.api.csproj", "{4630C080-8056-4A13-9023-82A1C75CD650}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{19CAE613-9DE2-404B-BA26-3BD3C12471AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19CAE613-9DE2-404B-BA26-3BD3C12471AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19CAE613-9DE2-404B-BA26-3BD3C12471AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4630C080-8056-4A13-9023-82A1C75CD650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4630C080-8056-4A13-9023-82A1C75CD650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4630C080-8056-4A13-9023-82A1C75CD650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4630C080-8056-4A13-9023-82A1C75CD650}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,6 +2,7 @@
 using mytracker.api.DataAccess;
 using mytracker.api.Exceptions;
 using mytracker.api.Model;
+using mytracker.api.Security;
 
 namespace mytracker.api.Services
 {

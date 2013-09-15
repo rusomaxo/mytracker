@@ -4,8 +4,7 @@ namespace mytracker.api.Exceptions
     {
         //user exceptions
         DublicateUser,  //username is exists
-        UserNotFound    
-
-        
+        UserNotFound,
+        DublicateIssueNumber
     }
 }

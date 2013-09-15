@@ -8,7 +8,9 @@ namespace mytracker.api.Model.Maps
         {
             Id(x => x.Id);
             Map(x => x.Subject);
+            Map(x => x.Description);
             Map(x => x.Number);
+            References(x => x.Author);
         }
     }
 }

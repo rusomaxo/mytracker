@@ -5,6 +5,7 @@ using NUnit.Framework;
 using mytracker.api.DataAccess;
 using mytracker.api.Exceptions;
 using mytracker.api.Model;
+using mytracker.api.Security;
 using mytracker.api.Services;
 
 namespace mytracker.api.tests.Services

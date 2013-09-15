@@ -55,15 +55,19 @@
     <Compile Include="DataAccess\IDataTransaction.cs" />
     <Compile Include="Exceptions\ApiException.cs" />
     <Compile Include="Exceptions\ApiExceptionType.cs" />
-    <Compile Include="Exceptions\UserException.cs" />
+    <Compile Include="Exceptions\DublicateIssueNumberException.cs" />
+    <Compile Include="Exceptions\DublicateUserException.cs" />
+    <Compile Include="Exceptions\UserNotFoundException.cs" />
     <Compile Include="Model\Entity.cs" />
     <Compile Include="Model\Issue.cs" />
     <Compile Include="Model\Maps\IssueMap.cs" />
     <Compile Include="Model\Maps\UserMap.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\IIssues.cs" />
+    <Compile Include="Services\Issues.cs" />
     <Compile Include="Services\IUsers.cs" />
-    <Compile Include="Services\PasswordHash.cs" />
+    <Compile Include="Security\PasswordHash.cs" />
     <Compile Include="Services\Users.cs" />
   </ItemGroup>
   <ItemGroup />
